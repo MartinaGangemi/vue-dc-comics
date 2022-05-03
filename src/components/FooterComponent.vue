@@ -1,40 +1,10 @@
 <template>
     <div class="bg_image">
-        <div class="col bg-logo">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                <h3>dc comics</h3>
-                <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                </ul>
-                <h3>Shop</h3>
-                <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                </ul>
-                </div>
-                <div class="col">
+        <div class="bg-logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
                     <h3>dc comics</h3>
-                        <ul>
-                            <li>a</li>
-                            <li>a</li>
-                            <li>a</li>
-                            <li>a</li>
-                            <li>a</li>
-                            <li>a</li>
-                            <li>a</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>prova</h3>
                     <ul>
                         <li>a</li>
                         <li>a</li>
@@ -44,10 +14,39 @@
                         <li>a</li>
                         <li>a</li>
                     </ul>
+                    <h3>Shop</h3>
+                    <ul>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                    </ul>
+                    </div>
+                    <div class="col">
+                        <h3>dc comics</h3>
+                            <ul>
+                                <li>a</li>
+                                <li>a</li>
+                                <li>a</li>
+                                <li>a</li>
+                                <li>a</li>
+                                <li>a</li>
+                                <li>a</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>prova</h3>
+                        <ul>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
-        </div>
         </div>
     </div>
 </template>

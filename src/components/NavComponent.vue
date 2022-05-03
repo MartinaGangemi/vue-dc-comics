@@ -1,16 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li>Characters</li>
-            <li class="active">Comics</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-            <li>Collectibles</li>
-            <li>Videos</li>
-            <li>Fans</li>
-            <li>News</li>
-            <li>Shop</li>
+            <li v-for="(list, index) in listMenu" :key="index" :class="active" > {{ list }} </li>
         </ul>
     </nav>
 </template>
@@ -18,7 +9,15 @@
 <script>
     export default {
   name: 'NavComponent',
+  data () {
+       return  { 
+          listMenu : ["Character","Comics","Movies", "tv" , "games","collectibles","videos","fans","news","shop",]
+      
+  }
+    }
 }
+
+
 </script>
 
 <style lang="scss" scoped>
@@ -33,6 +32,7 @@
             font-weight: bold;
             color: #1C1C1C ;
             position: relative;
+            cursor: pointer;
         }
 
         .active:after{
