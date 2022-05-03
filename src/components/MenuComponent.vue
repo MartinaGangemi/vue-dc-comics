@@ -3,7 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col" v-for="(list, index) in listItem" :key="index">
-                    <img :src="`@/assets/img/${list.src}`" alt=""> {{list.text}}</div>
+                    <img :src="require(`@/assets${list.src}`)"> {{list.text}}
+                </div>
             </div>
         </div>
     </div>
@@ -16,29 +17,29 @@
        return  { 
           listItem : [
             {
-                src: "buy-comics-digital-comics.png",
+                src: "/img/buy-comics-digital-comics.png",
                 text: "Digital comics",
             },
 
             {
-                src: "@/assets/img/buy-comics-digital-comics.png",
-                text: "DC Merchandise",
+                src: "/img/buy-comics-merchandise.png",
+                text: "Digital comics",
             },
-
             {
-                src: "@/assets/img/buy-comics-digital-comics.png",
-                text: "Subscrition",
+                src: "/img/buy-comics-subscriptions.png",
+                text: "Digital comics",
             },
-
             {
-                src: "@/assets/img/buy-comics-digital-comics.png",
-                text: "Comics Shop Locator",
+                src: "/img/buy-comics-shop-locator.png",
+                text: "Digital comics",
             },
-
             {
-                src: "@/assets/img/buy-comics-digital-comics.png",
-                text: "Dc power Visa",
+                src: "/img/buy-dc-power-visa.svg",
+                text: "Digital comics",
             },
+        
+
+            
         ]
         }
     }
@@ -53,14 +54,22 @@
     .row{
         align-items: center;
         padding: 3rem;
+        gap: 2rem;
     }
     
     .col{
         flex-grow: 1;
         color: white;
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        
     }
 
+    img{
+        height: 60px;
+        margin-right: 1rem;
+    }
    
 </style>

@@ -42,12 +42,12 @@ export default {
 }
 
 .container{
-   max-width: 1300px;
+   max-width: 1200px;
   margin: 0 auto;
 }
 
 img{
-  max-height: 100%;
+  height: 100%;
 }
 
  .row{

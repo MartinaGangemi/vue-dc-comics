@@ -74,6 +74,7 @@ export default {
 
     .row{
         padding: 2.5rem 0 2.5rem;
+        margin-left: 2rem;
     }
 
 
@@ -83,9 +84,11 @@ export default {
         background-size: cover;
         background-size: 550px;
         background-position: right; 
+        margin-right: 2rem;
     }
 
     h3{
+        
         color: white;
         text-transform: uppercase;
         margin: 1rem 0 1rem;
@@ -99,6 +102,7 @@ export default {
         li{
             list-style: none;
             color: #959595;
+           
         }
     }
 

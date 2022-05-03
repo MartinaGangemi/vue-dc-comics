@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
     header{
         background-color: white;
-        padding: 1rem;
+        padding: 1rem 0 1rem;
     }
 
     .row{
@@ -39,5 +39,6 @@ export default {
 
     .col-8{
         width: calc(100% / 12)*8;
+        text-align: right;
     }
 </style>

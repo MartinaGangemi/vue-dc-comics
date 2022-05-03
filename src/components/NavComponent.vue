@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li v-for="(list, index) in listMenu" :key="index" :class="active" > {{ list }} </li>
+            <li v-for="(list, index) in listMenu" :key="index" class="active" > {{ list }} </li>
         </ul>
     </nav>
 </template>
@@ -19,12 +19,11 @@
 </script>
 
 <style lang="scss" scoped>
-
     ul{
         li{
             list-style: none;
             display: inline-block;
-            margin: 1rem;
+            margin-right: 1rem;
             text-transform: uppercase;
             font-size: 0.8rem;
             font-weight: bold;
@@ -32,8 +31,8 @@
             position: relative;
             cursor: pointer;
         }
-
         .active:after{
+            display: none;
             border-bottom: solid 4px #0282F9;
             content: '';
             position: absolute;
@@ -42,6 +41,9 @@
             width: 100%;
             top: 59px;
             margin: 0 auto;
+        }
+        .active:hover:after{
+            display: block;
         }
     }
 </style>

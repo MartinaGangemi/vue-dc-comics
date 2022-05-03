@@ -19,7 +19,7 @@
 
     h2{
         color: white;
-        padding: 4rem 0 4rem;
+        padding: 5rem 0 5rem;
     }
     
 </style>
