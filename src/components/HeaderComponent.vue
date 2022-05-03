@@ -29,7 +29,6 @@ export default {
     }
 
     .row{
-        display: flex;
         align-items: center;
     }
 

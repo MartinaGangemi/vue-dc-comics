@@ -2,6 +2,8 @@
   <div id="app">
     <SiteHeader />
     <SiteMain />
+    <SiteMenu />
+    <SiteFooter />
   </div>
 </template>
 
@@ -9,11 +11,15 @@
 
 import SiteMain from "./components/MainComponent.vue"
 import SiteHeader from "./components/HeaderComponent.vue"
+import SiteMenu from "./components/MenuComponent.vue"
+import SiteFooter from "./components/FooterComponent.vue"
 export default {
   name: 'App',
   components: {
    SiteHeader,
-   SiteMain
+   SiteMain,
+   SiteMenu,
+   SiteFooter
   }
 }
 </script>
@@ -40,4 +46,8 @@ export default {
 img{
   max-height: 100%;
 }
+
+ .row{
+        display: flex;
+    }
 </style>

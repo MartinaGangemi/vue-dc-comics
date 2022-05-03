@@ -19,7 +19,8 @@
 
     h2{
         color: white;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     
 </style>
