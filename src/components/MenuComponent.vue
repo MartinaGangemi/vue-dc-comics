@@ -2,7 +2,8 @@
     <div class="bg_blue">
         <div class="container">
             <div class="row">
-                <div class="col" v-for="(list, index) in listItem" :key="index"><img :src="list.src" alt=""> {{list.text}}</div>
+                <div class="col" v-for="(list, index) in listItem" :key="index">
+                    <img :src="`@/assets/img/${list.src}`" alt=""> {{list.text}}</div>
             </div>
         </div>
     </div>
@@ -15,7 +16,7 @@
        return  { 
           listItem : [
             {
-                src: "@/assets/img/buy-comics-digital-comics.png",
+                src: "buy-comics-digital-comics.png",
                 text: "Digital comics",
             },
 
@@ -51,10 +52,15 @@
 
     .row{
         align-items: center;
-        padding: 2rem;
+        padding: 3rem;
     }
     
     .col{
         flex-grow: 1;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
     }
+
+   
 </style>

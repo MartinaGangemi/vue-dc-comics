@@ -9,15 +9,13 @@
 <script>
     export default {
   name: 'NavComponent',
-  data () {
-       return  { 
-          listMenu : ["Character","Comics","Movies", "tv" , "games","collectibles","videos","fans","news","shop",]
-      
-  }
+    data () {
+        return  { 
+            listMenu : ["Character","Comics","Movies", "tv" , "games","collectibles","videos","fans","news","shop",]
+        
+        }
     }
 }
-
-
 </script>
 
 <style lang="scss" scoped>
