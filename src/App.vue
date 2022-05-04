@@ -28,31 +28,6 @@ export default {
 </script>
 
 <style lang="scss">
+  @import '@/assets/scss/style.scss';
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container{
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-img{
-  height: 100%;
-}
-
- .row{
-    display: flex;
-    flex-wrap: wrap;
-    }
 </style>

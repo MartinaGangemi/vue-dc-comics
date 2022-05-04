@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
     header{
-        background-color: white;
+        background-color: $dc-white;
         padding: 1rem 0 1rem;
     }
 

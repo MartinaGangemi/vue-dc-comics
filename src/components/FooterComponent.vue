@@ -84,7 +84,7 @@ export default {
     }
 
     h3{
-        color: white;
+        color: $dc-white;
         text-transform: uppercase;
         margin: 1rem 0 1rem;
     }
@@ -96,7 +96,7 @@ export default {
      ul{
         li{
             list-style: none;
-            color: #959595;
+            color: $dc-ligther-dark;
         }
     }
 

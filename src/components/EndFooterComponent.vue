@@ -41,9 +41,9 @@
 }
 
 button{
-    border: solid 2px #0282F9;
+    border: solid 2px $dc-primary;
     background-color: transparent ;
-    color: white;
+    color: $dc-white;
     text-transform: uppercase;
     padding: 1rem;
     font-size: 1.2rem;

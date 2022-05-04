@@ -103,44 +103,47 @@
 </script>
 
 <style lang="scss" scoped>
-    main{
-        background-color: #1C1C1C;
-    }
+main{
+    background-color: $dc-dark;
+}
 
-    .container{
-        position: relative;
-        padding: 2rem 0 2rem;
-    }
-    .jumbo{
-        background-image: url(@/assets/img/jumbotron.jpg);
-        background-size: cover ;
-        background-repeat: no-repeat;
-        height: 400px;
-    }
+.container{
+    position: relative;
+    padding: 2rem 0 2rem;
+}
+.jumbo{
+    background-image: url(@/assets/img/jumbotron.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 400px;
+}
 
-    button{
-    background-color:  #0282F9;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    font-weight: bold;
+button{
+background-color:  #0282F9;
+border: none;
+color: white;
+text-transform: uppercase;
+padding: 1rem 2rem;
+font-size: 1.5rem;
+cursor: pointer;
+font-weight: bold;
 }
 
 .current{
-    position: absolute;
-    top: -30px;
+position: absolute;
+top: -30px;
 }
 
 .load{
-    font-size: 1rem;
+font-size: 1rem;
+padding: 1rem 4rem;
 }
 
 .btn-center{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+padding: 1rem 5rem;
 }
     
     

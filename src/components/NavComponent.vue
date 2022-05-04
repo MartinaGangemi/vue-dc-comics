@@ -80,12 +80,12 @@
             text-transform: uppercase;
             font-size: 0.8rem;
             font-weight: bold;
-            color: #1C1C1C ;
+            color: $dc-dark ;
             position: relative;
             cursor: pointer;
         }
         li:hover:after, .active:after{
-            border-bottom: solid 4px #0282F9;
+            border-bottom: solid 4px $dc-primary;
             content: '';
             position: absolute;
             left: 0;
