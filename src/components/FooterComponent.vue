@@ -1,8 +1,9 @@
 <template>
     <div class="bg_image">
-        <div class="bg-logo">
-            <div class="container">
+        <div class="container">
+            <div class="bg-logo">
                 <div class="row">
+                    <!-- col -->
                     <div class="col">
                     <h3>dc comics</h3>
                     <ul>
@@ -21,6 +22,7 @@
                         <li>Lorem, ipsum dolor.</li>
                     </ul>
                     </div>
+                    <!-- col -->
                     <div class="col">
                         <h3>dc</h3>
                             <ul>
@@ -32,6 +34,7 @@
                                 <li>Lorem, ipsum dolor.</li>
                         </ul>
                     </div>
+                    <!-- col -->
                     <div class="col">
                         <h3>sites</h3>
                         <ul>
@@ -42,10 +45,6 @@
                             <li>Lorem, ipsum dolor.</li>
                             <li>Lorem, ipsum dolor.</li>
                         </ul>
-                    </div>
-
-                    <div class="col">
-                        <img src="" alt="">
                     </div>
                 </div>
             </div>
@@ -59,8 +58,8 @@
     
 export default {
   name: 'FooterComponent',
- 
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -69,12 +68,10 @@ export default {
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
-        
     }
 
     .row{
         padding: 2.5rem 0 2.5rem;
-        margin-left: 2rem;
     }
 
 
@@ -84,11 +81,9 @@ export default {
         background-size: cover;
         background-size: 550px;
         background-position: right; 
-        margin-right: 2rem;
     }
 
     h3{
-        
         color: white;
         text-transform: uppercase;
         margin: 1rem 0 1rem;
@@ -102,7 +97,6 @@ export default {
         li{
             list-style: none;
             color: #959595;
-           
         }
     }
 

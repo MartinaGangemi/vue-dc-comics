@@ -23,19 +23,19 @@
 
             {
                 src: "/img/buy-comics-merchandise.png",
-                text: "Digital comics",
+                text: "Dc Merchandise",
             },
             {
                 src: "/img/buy-comics-subscriptions.png",
-                text: "Digital comics",
+                text: "Subscription",
             },
             {
                 src: "/img/buy-comics-shop-locator.png",
-                text: "Digital comics",
+                text: "Comics shop location",
             },
             {
                 src: "/img/buy-dc-power-visa.svg",
-                text: "Digital comics",
+                text: "dc power visa",
             },
         
 
@@ -58,17 +58,16 @@
     }
     
     .col{
-        flex-grow: 1;
         color: white;
         text-transform: uppercase;
         font-size: 0.9rem;
         display: flex;
         align-items: center;
-        
+        flex-grow: 1;
     }
 
     img{
-        height: 60px;
+        height: 50px;
         margin-right: 1rem;
     }
    

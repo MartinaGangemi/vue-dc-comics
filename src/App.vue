@@ -28,6 +28,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +43,7 @@ export default {
 }
 
 .container{
-   max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -51,6 +52,7 @@ img{
 }
 
  .row{
-        display: flex;
+    display: flex;
+    flex-wrap: wrap;
     }
 </style>

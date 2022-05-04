@@ -1,9 +1,11 @@
 <template>
   <header class="container">
       <div class="row">
+          <!-- logo img -->
         <div class="col-4">
             <img src="@/assets/img/dc-logo.png" alt=""> 
         </div>
+        <!-- nav -->
         <div class="col-8">
             <SiteNav />
         </div>
